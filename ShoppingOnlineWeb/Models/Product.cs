@@ -11,17 +11,24 @@ namespace ShoppingOnlineWeb.Models
     {
         [Key]
         public int ProductID { get; set; }
-        public string Name { get; set; }
-        public string Description { get; set; }
-        public string Image { get; set; }
+        [Required]
+        public string? Name { get; set; }
+        public string? Description { get; set; }
+        [Required]
+        public string? Image { get; set; }
+        [Required]
         public decimal Price { get; set; }
         public int StockQuantity { get; set; }
 
         // Foreign Key
+        [Required]
         public int CategoryID { get; set; }
         public Category Category { get; set; }
 
         // Navigation property for reviews
         public ICollection<Comment> Comments { get; set; }
+        public ICollection<OrderDetail> OrderDetails { get; set; }
+        public ICollection<CartDetail> CartDetails { get; set; }
+
     }
 }

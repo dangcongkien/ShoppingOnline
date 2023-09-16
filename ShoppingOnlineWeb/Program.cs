@@ -1,7 +1,17 @@
+using Microsoft.EntityFrameworkCore;
+using ShoppingOnlineWeb.DataContext;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+
+builder.Services.AddDbContext<ShoppingOnlineContext>(option => option.UseSqlServer(connectionString));
+
+//builder.Services.AddDefaultIdentity<IdentityUsingUser>(options => options.SignIn.RequireConfirmedAccount = true)
+//    .AddEntityFrameworkStores<ShoppingOnlineWebContext>();
 
 var app = builder.Build();
 
@@ -17,6 +27,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();;
 
 app.UseAuthorization();
 
