@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2QOl3k35fhWDOTpumlS0KaPS2WEQM5fn1qsE8VJD8Yk=",
+  "Hash": "slxb0a/eO2ClK6Nf7u0Yg3RrwEK2hDWYTkrFhloh158=",
   "Source": "ShoppingOnlineWeb",
   "BasePath": "_content/ShoppingOnlineWeb",
   "Mode": "Default",
@@ -1071,6 +1071,23 @@
       "OriginalItemSpec": "D:\\PRN221\\ShoppingOnline\\ShoppingOnlineWeb\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ShoppingOnlineWeb.bundle.scp.css"
     },
     {
+      "Identity": "D:\\PRN221\\ShoppingOnline\\ShoppingOnlineWeb\\wwwroot\\assets\\favicon.ico",
+      "SourceId": "ShoppingOnlineWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PRN221\\ShoppingOnline\\ShoppingOnlineWeb\\wwwroot\\",
+      "BasePath": "_content/ShoppingOnlineWeb",
+      "RelativePath": "assets/favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\favicon.ico"
+    },
+    {
       "Identity": "D:\\PRN221\\ShoppingOnline\\ShoppingOnlineWeb\\wwwroot\\css\\site.css",
       "SourceId": "ShoppingOnlineWeb",
       "SourceType": "Discovered",
@@ -1088,6 +1105,23 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+      "Identity": "D:\\PRN221\\ShoppingOnline\\ShoppingOnlineWeb\\wwwroot\\css\\styles.css",
+      "SourceId": "ShoppingOnlineWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PRN221\\ShoppingOnline\\ShoppingOnlineWeb\\wwwroot\\",
+      "BasePath": "_content/ShoppingOnlineWeb",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\styles.css"
+    },
+    {
       "Identity": "D:\\PRN221\\ShoppingOnline\\ShoppingOnlineWeb\\wwwroot\\favicon.ico",
       "SourceId": "ShoppingOnlineWeb",
       "SourceType": "Discovered",
@@ -1103,6 +1137,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\PRN221\\ShoppingOnline\\ShoppingOnlineWeb\\wwwroot\\js\\scripts.js",
+      "SourceId": "ShoppingOnlineWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\PRN221\\ShoppingOnline\\ShoppingOnlineWeb\\wwwroot\\",
+      "BasePath": "_content/ShoppingOnlineWeb",
+      "RelativePath": "js/scripts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\scripts.js"
     },
     {
       "Identity": "D:\\PRN221\\ShoppingOnline\\ShoppingOnlineWeb\\wwwroot\\js\\site.js",
