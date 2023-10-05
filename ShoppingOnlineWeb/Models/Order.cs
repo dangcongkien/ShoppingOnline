@@ -13,7 +13,7 @@ namespace ShoppingOnlineWeb.Models
         public int OrderStatusId { get; set; }
         public bool IsDeleted { get; set; } = false;
         public OrderStatus OrderStatus { get; set; }
-        public ICollection<OrderDetail> OrderDetails { get; set; }
+        public ICollection<OrderDetail>? OrderDetails { get; set; }
 
     }
 }

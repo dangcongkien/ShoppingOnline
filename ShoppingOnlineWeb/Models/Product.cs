@@ -18,6 +18,8 @@ namespace ShoppingOnlineWeb.Models
         public string? Image { get; set; }
         [Required]
         public decimal Price { get; set; }
+        public string color { get; set; }
+        public string size { get; set; }
         public int StockQuantity { get; set; }
 
         // Foreign Key
@@ -26,9 +28,9 @@ namespace ShoppingOnlineWeb.Models
         public Category Category { get; set; }
 
         // Navigation property for reviews
-        public ICollection<Comment> Comments { get; set; }
-        public ICollection<OrderDetail> OrderDetails { get; set; }
-        public ICollection<CartDetail> CartDetails { get; set; }
+        public ICollection<Comment>? Comments { get; set; }
+        public ICollection<OrderDetail>? OrderDetails { get; set; }
+        public ICollection<CartDetail>? CartDetails { get; set; }
 
     }
 }

@@ -16,6 +16,6 @@ namespace ShoppingOnlineWeb.Models
         public string Name { get; set; }
 
         // Navigation property to Products
-        public ICollection<Product> Products { get; set; }
+        public ICollection<Product>? Products { get; set; }
     }
 }

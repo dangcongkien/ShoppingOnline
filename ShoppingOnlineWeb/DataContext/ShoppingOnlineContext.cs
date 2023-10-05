@@ -1,9 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using ShoppingOnlineWeb.Models;
+using ShoppingOnlineWeb.Areas.Identity.Data;
 
 namespace ShoppingOnlineWeb.DataContext
 {
-    public class ShoppingOnlineContext : DbContext
+    public class ShoppingOnlineContext : IdentityDbContext<IdentityUsingUser>
     {
         public ShoppingOnlineContext(DbContextOptions<ShoppingOnlineContext> options) : base(options)
         {
