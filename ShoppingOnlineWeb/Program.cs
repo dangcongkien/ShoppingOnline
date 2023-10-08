@@ -16,6 +16,7 @@ builder.Services.AddDbContext<ShoppingOnlineContext>(options =>
 builder.Services.AddDefaultIdentity<IdentityUsingUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ShoppingOnlineContext>();
 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
